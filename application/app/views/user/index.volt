@@ -35,7 +35,7 @@ if ($users->count() > 0) {
             </tbody>
             <tfoot>
                 <tr>
-                    <td colspan="3">Users quantity: <?php echo $users->count(); ?></td>
+                    <td colspan="4">Users quantity: <?php echo $users->count(); ?></td>
                 </tr>
             </tfoot>
         </table>
